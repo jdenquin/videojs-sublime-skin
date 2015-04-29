@@ -1,8 +1,8 @@
-.vjs-sublime-skin {
+.vjs-default-skin {
   color: white; }
-  .vjs-sublime-skin .vjs-poster:focus, .vjs-sublime-skin .vjs-control:focus {
+  .vjs-default-skin .vjs-poster:focus, .vjs-default-skin .vjs-control:focus {
     outline: none; }
-  .vjs-sublime-skin .vjs-big-play-button {
+  .vjs-default-skin .vjs-big-play-button {
     line-height: 50px;
     margin: -25px;
     opacity: 1;
@@ -16,15 +16,15 @@
     -moz-transition: opacity 100ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
     transition: opacity 100ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
     z-index: 2; }
-    .vjs-sublime-skin .vjs-big-play-button:before {
+    .vjs-default-skin .vjs-big-play-button:before {
       border-color: transparent transparent transparent white;
       border-style: solid;
       border-width: 25px 0 25px 50px;
       content: "";
       display: block; }
-  .vjs-sublime-skin.vjs-controls-disabled .vjs-big-play-button, .vjs-sublime-skin.vjs-has-started .vjs-big-play-button, .vjs-sublime-skin.vjs-using-native-controls .vjs-big-play-button {
+  .vjs-default-skin.vjs-controls-disabled .vjs-big-play-button, .vjs-default-skin.vjs-has-started .vjs-big-play-button, .vjs-default-skin.vjs-using-native-controls .vjs-big-play-button {
     opacity: 0; }
-  .vjs-sublime-skin .vjs-control-bar {
+  .vjs-default-skin .vjs-control-bar {
     height: 50px;
     opacity: 0;
     pointer-events: none;
@@ -33,28 +33,28 @@
     bottom: 0;
     left: 0;
     z-index: 2; }
-  .vjs-sublime-skin.vjs-has-started .vjs-control-bar {
+  .vjs-default-skin.vjs-has-started .vjs-control-bar {
     opacity: 1;
     pointer-events: auto;
     -webkit-transition: opacity 100ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
     -moz-transition: opacity 100ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
     transition: opacity 100ms cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-  .vjs-sublime-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  .vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
     opacity: 0;
     -webkit-transition: opacity 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     -moz-transition: opacity 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     transition: opacity 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-  .vjs-sublime-skin.vjs-has-started .vjs-poster {
+  .vjs-default-skin.vjs-has-started .vjs-poster {
     display: none; }
-  .vjs-sublime-skin.vjs-using-native-controls .vjs-control-bar, .vjs-sublime-skin.vjs-controls-disabled .vjs-control-bar {
+  .vjs-default-skin.vjs-using-native-controls .vjs-control-bar, .vjs-default-skin.vjs-controls-disabled .vjs-control-bar {
     display: none; }
-  .vjs-sublime-skin .vjs-progress-control {
+  .vjs-default-skin .vjs-progress-control {
     position: absolute;
     top: 0;
     right: 95px;
     bottom: 0;
     left: 50px; }
-    .vjs-sublime-skin .vjs-progress-control .vjs-progress-holder {
+    .vjs-default-skin .vjs-progress-control .vjs-progress-holder {
       cursor: pointer;
       height: 20px;
       margin-top: -10px;
@@ -62,7 +62,7 @@
       top: 50%;
       right: 0;
       left: 0; }
-      .vjs-sublime-skin .vjs-progress-control .vjs-progress-holder:after {
+      .vjs-default-skin .vjs-progress-control .vjs-progress-holder:after {
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 2px;
         content: "";
@@ -73,7 +73,7 @@
         top: 50%;
         right: 0;
         left: 0; }
-    .vjs-sublime-skin .vjs-progress-control .vjs-play-progress {
+    .vjs-default-skin .vjs-progress-control .vjs-play-progress {
       background-color: rgba(255, 255, 255, 0.7);
       border-radius: 2px;
       height: 4px;
@@ -82,7 +82,7 @@
       top: 50%;
       right: 0;
       left: 0; }
-  .vjs-sublime-skin .vjs-play-control {
+  .vjs-default-skin .vjs-play-control {
     cursor: pointer;
     margin-top: -8px;
     position: absolute;
@@ -90,13 +90,13 @@
     left: 20px;
     height: 16px;
     width: 15px; }
-    .vjs-sublime-skin .vjs-play-control:before {
+    .vjs-default-skin .vjs-play-control:before {
       border-color: transparent transparent transparent white;
       border-style: solid;
       border-width: 8px 0 8px 15px;
       content: "";
       display: block; }
-  .vjs-sublime-skin.vjs-playing .vjs-play-control:before, .vjs-sublime-skin.vjs-playing .vjs-play-control:after {
+  .vjs-default-skin.vjs-playing .vjs-play-control:before, .vjs-default-skin.vjs-playing .vjs-play-control:after {
     background-color: white;
     border: none;
     content: "";
@@ -107,10 +107,10 @@
     bottom: 0;
     left: 0;
     width: 6px; }
-  .vjs-sublime-skin.vjs-playing .vjs-play-control:after {
+  .vjs-default-skin.vjs-playing .vjs-play-control:after {
     left: auto;
     right: 0; }
-  .vjs-sublime-skin .vjs-fullscreen-control {
+  .vjs-default-skin .vjs-fullscreen-control {
     border: 3px solid white;
     box-sizing: border-box;
     cursor: pointer;
@@ -120,9 +120,9 @@
     right: 20px;
     height: 14px;
     width: 22px; }
-  .vjs-sublime-skin.vjs-fullscreen .vjs-fullscreen-control {
+  .vjs-default-skin.vjs-fullscreen .vjs-fullscreen-control {
     background: white; }
-    .vjs-sublime-skin.vjs-fullscreen .vjs-fullscreen-control:after {
+    .vjs-default-skin.vjs-fullscreen .vjs-fullscreen-control:after {
       background: black;
       content: "";
       display: block;
@@ -131,7 +131,7 @@
       left: 0;
       height: 5px;
       width: 5px; }
-  .vjs-sublime-skin .vjs-volume-control {
+  .vjs-default-skin .vjs-volume-control {
     cursor: pointer;
     margin-top: -7px;
     position: absolute;
@@ -139,12 +139,12 @@
     right: 55px;
     height: 14px;
     width: 22px; }
-  .vjs-sublime-skin .vjs-volume-bar {
+  .vjs-default-skin .vjs-volume-bar {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAcCAQAAACw95UnAAAAMElEQVRIx2NgoBL4n4YKGUYNHkEG4zJg1OCRYDCpBowaPJwMppbLRg0eNXjUYBLEAXWNUA6QNm1lAAAAAElFTkSuQmCC);
     background-size: 22px 14px;
     height: 100%;
     width: 100%; }
-  .vjs-sublime-skin .vjs-volume-level {
+  .vjs-default-skin .vjs-volume-level {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAcAQAAAAAyhWABAAAAAnRSTlMAAHaTzTgAAAAZSURBVHgBYwAB/g9EUv+JokCqiaT+U4MCAPKPS7WUUOc1AAAAAElFTkSuQmCC);
     background-size: 22px 14px;
     height: 100%; }
